@@ -1,5 +1,5 @@
 import createRestaurantHomePage from "./restaurant";
-
+import createMenuPage from "./menu";
 
 const createTabs = () => {
 
@@ -67,9 +67,12 @@ const createTabs = () => {
 function clearContent() {
     const content =  document.querySelector('#content');
     const pageContent = document.querySelector('.page-content');
+    const menuContent = document.querySelector('.menu-content');
 
     if (pageContent) {
         content.removeChild(pageContent);
+    } else if (menuContent) {
+        content.removeChild(menuContent);
     }
 
 }

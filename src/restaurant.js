@@ -12,7 +12,7 @@ const createRestaurantHomePage = () => {
 
     //create and append a copy element
     const copy = document.createElement('p');
-    copy.textContent = 'We serve the best food in town';
+    copy.textContent = 'We also serve the best food in town';
     pageContent.appendChild(copy);
 
     content.appendChild(pageContent);

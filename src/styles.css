@@ -57,6 +57,7 @@ body{
     width: 100%;
 }
 
+/* Menu page styles */
 .menu-content{
     display: flex;
     width: 100%;
@@ -80,4 +81,25 @@ body{
 .menu-plate > img {
     height:80%;
     width: 100%;
+}
+
+/* Contact page styles */
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    background-color: var(--medium-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
 }
